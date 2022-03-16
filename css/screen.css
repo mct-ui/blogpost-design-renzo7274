@@ -163,6 +163,39 @@ a:focus {
   color: #4dc9ff;
 }
 
+/* component author */
+
+.c-author {
+    margin-bottom: 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 24px;
+}
+
+.c-author__avatar {
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+
+}
+
+.c-author__name,
+.c-author__title {
+    margin-bottom: 0px;
+}
+
+.c-author__name {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.c-author__title{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "inter web", sans-serif;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 
 @media (min-width: 576px) {
